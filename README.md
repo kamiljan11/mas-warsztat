@@ -39,3 +39,16 @@ A public reference, not the application. There is no source here and nothing to 
 ## Licence
 
 Proprietary. Published for reference only.
+
+## Repository contents and handover
+
+| Path | What it is |
+|---|---|
+| `README.md` | This page. |
+| `LICENSE` | Proprietary, all rights reserved. |
+| `CHANGELOG.md` | History of this reference repository (not of the application). |
+| `docs/RUNBOOK.md` | What exists in this repository and where operational knowledge is kept. |
+
+There is nothing to install, run, test or deploy from this repository: it holds documents only. Local setup, tests, deploy and rollback of the application belong in the private application repository, not here, because this repository is public.
+
+If you are taking over the system, start from `docs/RUNBOOK.md`.
